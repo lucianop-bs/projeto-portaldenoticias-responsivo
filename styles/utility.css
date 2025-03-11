@@ -6,4 +6,5 @@
   font: var(--tag);
   color: var(--text-color-primary);
   padding: 4px 8px;
+  letter-spacing: 4%;
 }

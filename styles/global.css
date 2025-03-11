@@ -31,6 +31,10 @@ h1 {
   font: var(--heading1);
 }
 
+h3 {
+  font: var(--heading3);
+}
+
 a {
   text-decoration: none;
 }

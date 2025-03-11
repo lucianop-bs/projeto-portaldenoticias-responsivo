@@ -1,3 +1,8 @@
+#destaques {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .card {
   position: relative;
   contain: layout;
@@ -31,6 +36,10 @@
     color: var(--text-color-primary);
   }
 
+  & h3 {
+    color: var(--text-color-primary);
+  }
+
   & .text {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -40,9 +49,26 @@
     overflow: hidden;
     color: var(--text-color-primary, #f1f5f9);
     text-overflow: ellipsis;
+    white-space: wrap;
   }
 }
 
 .destaque {
   height: 26rem;
+}
+
+.destaque-2 {
+  height: 12.5rem;
+}
+
+@media (width >= 80em) {
+  #destaques {
+    display: grid;
+    grid-template-columns: 38rem 1fr;
+  }
+
+  .grid-test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
