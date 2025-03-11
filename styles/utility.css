@@ -1,0 +1,9 @@
+.tag {
+  display: flex;
+  text-transform: uppercase;
+  background-color: var(--brand-color-dark);
+  border-radius: 4px;
+  font: var(--tag);
+  color: var(--text-color-primary);
+  padding: 4px 8px;
+}

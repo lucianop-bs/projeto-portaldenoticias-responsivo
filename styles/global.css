@@ -11,6 +11,7 @@
   --heading3: 800 0.875rem/1.4 var(--ff-archivo);
   --span: 600 0.875rem/1.45 var(--ff-archivo);
   --p: 400 0.875rem/1.6 var(--ff-archivo);
+  --tag: 500 0.625rem var(--ff-archivo);
 
   --brand-color-light: #60a5fa;
   --brand-color-dark: #1d4ed8;
@@ -26,10 +27,18 @@ body {
   background-color: var(--bg-color);
 }
 
+h1 {
+  font: var(--heading1);
+}
+
 a {
   text-decoration: none;
 }
 
 img {
   width: 100%;
+}
+
+main {
+  padding: 1rem;
 }
