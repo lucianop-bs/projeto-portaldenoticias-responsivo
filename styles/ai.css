@@ -1,0 +1,42 @@
+#ai-infor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+
+.ai-contain {
+  display: flex;
+
+  gap: 1rem;
+
+  & span {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  & img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.ai-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+  overflow: hidden;
+  color: var(--text-color-primary, #f1f5f9);
+  text-overflow: ellipsis;
+  white-space: wrap;
+
+  margin-bottom: 4px;
+}
+.ai-text-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  align-self: stretch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

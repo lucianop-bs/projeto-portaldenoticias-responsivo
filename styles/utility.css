@@ -8,3 +8,17 @@
   padding: 4px 8px;
   letter-spacing: 4%;
 }
+.posicao {
+  position: relative;
+}
+.linhas {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+
+  overflow: hidden;
+  color: var(--text-color-primary, #f1f5f9);
+  text-overflow: ellipsis;
+  white-space: wrap;
+}

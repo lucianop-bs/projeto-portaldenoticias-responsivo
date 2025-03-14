@@ -29,10 +29,23 @@ body {
 
 h1 {
   font: var(--heading1);
+  color: var(--text-color-primary);
+}
+h2 {
+  font: var(--heading2);
+  color: var(--text-color-primary);
 }
 
 h3 {
   font: var(--heading3);
+  color: var(--text-color-primary);
+}
+p {
+  font: var(--p);
+  color: var(--text-color-secondary);
+}
+span {
+  font: var(--span);
 }
 
 a {
@@ -45,4 +58,5 @@ img {
 
 main {
   padding: 1rem;
+  padding-bottom: 2.5rem;
 }

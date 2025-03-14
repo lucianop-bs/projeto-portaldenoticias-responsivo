@@ -1,0 +1,54 @@
+.mais-lidas {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color-secondary);
+  border-top: 1px solid var(--stroke-color);
+  padding-top: 0.75rem;
+
+  & img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  & .img-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    &:hover {
+      color: var(--brand-color-light);
+      filter: invert(64%) sepia(56%) saturate(2659%) hue-rotate(188deg)
+        brightness(100%) contrast(96%);
+    }
+  }
+}
+
+.noticias {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+
+  & .container-text {
+    top: 0;
+    padding: 0.5rem;
+  }
+
+  & h3 {
+    margin-top: 0.5rem;
+    font: var(--heading2);
+    color: var(--text-color-primary);
+  }
+}
+#news {
+  margin-bottom: 2rem;
+}
+
+@media (width >= 80em) {
+  .noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}

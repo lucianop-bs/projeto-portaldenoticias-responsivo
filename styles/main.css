@@ -61,8 +61,15 @@
 .destaque-2 {
   height: 12.5rem;
 }
+.destaque-3 {
+  height: 10rem;
+}
 
 @media (width >= 80em) {
+  main {
+    padding: 2.5rem 2rem;
+  }
+
   #destaques {
     display: grid;
     grid-template-columns: 38rem 1fr;
