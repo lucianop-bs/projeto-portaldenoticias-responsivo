@@ -46,6 +46,9 @@
 }
 
 @media (width >= 80em) {
+  #news {
+    margin-bottom: 5rem;
+  }
   .noticias {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

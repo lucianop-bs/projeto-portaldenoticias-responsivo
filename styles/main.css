@@ -74,6 +74,7 @@
     display: grid;
     grid-template-columns: 38rem 1fr;
     grid-auto-flow: column;
+    margin-bottom: 5rem;
   }
 
   .grid-test {
